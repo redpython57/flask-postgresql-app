@@ -9,7 +9,7 @@ author: cephalin
 This is a sample application that you can use to follow along with the tutorial at 
 [Build a Python and PostgreSQL web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-python-postgresql). 
 
-The sample is a simple Python Flask application that connects to a PostgreSQL database via SQLAlchemy.
+The sample is a simple [Python Flask](https://en.wikipedia.org/wiki/Flask_(web_framework)) application that connects to a PostgreSQL database via SQLAlchemy.
 
 The database connection information is specified via environment variables `DBHOST`, `DBPASS`, `DBUSER`, and `DBNAME`. This app always uses the default PostgreSQL port.
 
